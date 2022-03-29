@@ -1,5 +1,3 @@
-//コンパイルしてもらえれば全ての解答が出力されます。
-
 #include <iostream>
 #include <fstream>
 #include <stdio.h>
@@ -14,7 +12,7 @@ int main()
 
   cout << "1. 配列配列 a, b には数値が入力されている。" << endl
        << endl;
-  cout << "① 配列a,bをモニタに表示せよ" << endl
+  cout << "① 配列a,bをモニタに表示" << endl
        << endl;
   int sum_a = 0, sum_b = 0;
 
@@ -54,7 +52,7 @@ int main()
   // printf("%.2f\n", ave2); //500 回目までに出たサイコロの目の期待値
   cout << "-------------------------" << endl
        << endl;
-  cout << "② 配列a,bそれぞれの面積(1の画素数)を求めよ。" << endl
+  cout << "② 配列a,bそれぞれの面積(1の画素数)を求める。" << endl
        << endl;
   cout << "配列aの面積 : " << sum_a << endl;
   cout << "配列bの面積 : " << sum_b << endl;
@@ -63,7 +61,7 @@ int main()
   cout << "-------------------------" << endl
        << endl;
 
-  cout << "➂ 配列aにおいて1の画素に着目したときのy座標最大・最小、x座標最大・最小の要素を順に2,3,4,5に置き換えて表示せよ。" << endl
+  cout << "➂ 配列aにおいて1の画素に着目したときのy座標最大・最小、x座標最大・最小の要素を順に2,3,4,5に置き換えて表示。" << endl
        << endl;
 
   int min_x = 100, max_x = -100, min_y = 100, max_y = -100;
@@ -120,7 +118,7 @@ int main()
   cout << "-------------------------" << endl
        << endl;
 
-  cout << "④ 重心の座標を6に置き換えて表示せよ" << endl
+  cout << "④ 重心の座標を6に置き換えて表示" << endl
        << endl;
 
   int gx = (max_x + min_x) / 2;
@@ -140,7 +138,7 @@ int main()
   cout << "-------------------------" << endl
        << endl;
 
-  cout << "2.① 配列bの縦方向のエッジを求めよ" << endl
+  cout << "2.① 配列bの縦方向のエッジを求める" << endl
        << endl;
 
   int bout_ver[7][7]; //縦方向のエッジ
@@ -182,7 +180,7 @@ int main()
   cout << "-------------------------" << endl
        << endl;
 
-  cout << "2.② 配列bの横方向のエッジを求めよ" << endl
+  cout << "2.② 配列bの横方向のエッジを求める" << endl
        << endl;
 
   int bout_hor[7][7]; //横方向のエッジ
